@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="results.html" method="get">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div>
+        <label> course to register<input type="text" required /> </label>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" required />
+        <input type="number" required max="10" min="4" />
+        <label>D.O.B</label>
+        <input type="date" required />
+        <input type="range" required />
+      </div>
+      <div>
+        <label>
+          password
+          <input type="password" name="password" required />
+        </label>
+      </div>
+      <button type="submit">submit</button>
+
+      <label for="boy">Male</label>
+      <input type="radio" name="g" required class="" id="boy" />
+
+      <label for="girl">Female</label>
+      <input type="radio" name="g" required id="girl" />
+
+      <select value="">
+        <option value="">Fruits</option>
+        <option>mango</option>
+        <option>apple</option>
+        <option>pear</option>
+        <option>grape</option>
+      </select>
+      <input type="checkbox" />
+
+      <ol>
+        <li><input type="checkbox" />fish</li>
+        <li><input type="checkbox" />meat</li>
+        <li><input type="checkbox" />beans</li>
+        <li><input type="checkbox" />bread</li>
+        <li><input type="checkbox" />yam</li>
+        <li><input type="checkbox" />rice</li>
+      </ol>
+    </form>
+  </body>
+</html>
